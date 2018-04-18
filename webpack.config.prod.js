@@ -5,7 +5,7 @@ var commonConfig = require('./webpack.config.common');
 var ngw = require('@ngtools/webpack');
  
 module.exports = webpackMerge(commonConfig, {
-    entry: './src/app/main.aot.ts',
+    entry: './src/main.aot.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
       publicPath: '/',
